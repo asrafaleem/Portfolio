@@ -1,0 +1,139 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. */
+
+@layer base {
+  :root {
+    --background: 210 40% 8%;
+    --foreground: 213 31% 91%;
+
+    --card: 210 40% 8%;
+    --card-foreground: 213 31% 91%;
+
+    --popover: 210 40% 8%;
+    --popover-foreground: 213 31% 91%;
+
+    --primary: 189 85% 56%;
+    --primary-foreground: 210 40% 8%;
+
+    --secondary: 217 19% 27%;
+    --secondary-foreground: 213 31% 91%;
+
+    --muted: 217 19% 27%;
+    --muted-foreground: 213 13% 65%;
+
+    --accent: 189 85% 56%;
+    --accent-foreground: 210 40% 8%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217 19% 27%;
+    --input: 217 19% 27%;
+    --ring: 189 85% 56%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 210 40% 8%;
+    --sidebar-foreground: 213 31% 91%;
+    --sidebar-primary: 189 85% 56%;
+    --sidebar-primary-foreground: 210 40% 8%;
+    --sidebar-accent: 217 19% 27%;
+    --sidebar-accent-foreground: 213 31% 91%;
+    --sidebar-border: 217 19% 27%;
+    --sidebar-ring: 189 85% 56%;
+
+    /* Custom modern theme colors */
+    --navy-dark: 210 40% 8%;
+    --navy-medium: 217 19% 27%;
+    --navy-light: 213 13% 65%;
+    --text-primary: 213 31% 91%;
+    --text-secondary: 213 13% 65%;
+    --accent-teal: 189 85% 56%;
+    --accent-sky: 200 98% 39%;
+  }
+
+  .dark {
+    --background: 210 40% 8%;
+    --foreground: 213 31% 91%;
+
+    --card: 210 40% 8%;
+    --card-foreground: 213 31% 91%;
+
+    --popover: 210 40% 8%;
+    --popover-foreground: 213 31% 91%;
+
+    --primary: 189 85% 56%;
+    --primary-foreground: 210 40% 8%;
+
+    --secondary: 217 19% 27%;
+    --secondary-foreground: 213 31% 91%;
+
+    --muted: 217 19% 27%;
+    --muted-foreground: 213 13% 65%;
+
+    --accent: 189 85% 56%;
+    --accent-foreground: 210 40% 8%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217 19% 27%;
+    --input: 217 19% 27%;
+    --ring: 189 85% 56%;
+    --sidebar-background: 210 40% 8%;
+    --sidebar-foreground: 213 31% 91%;
+    --sidebar-primary: 189 85% 56%;
+    --sidebar-primary-foreground: 210 40% 8%;
+    --sidebar-accent: 217 19% 27%;
+    --sidebar-accent-foreground: 213 31% 91%;
+    --sidebar-border: 217 19% 27%;
+    --sidebar-ring: 189 85% 56%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    background: hsl(var(--navy-dark));
+    color: hsl(var(--text-primary));
+  }
+}
+
+/* Custom utility classes for the modern theme */
+@layer utilities {
+  .text-navy-light {
+    color: hsl(var(--navy-light));
+  }
+  
+  .text-secondary {
+    color: hsl(var(--text-secondary));
+  }
+  
+  .bg-navy-dark {
+    background-color: hsl(var(--navy-dark));
+  }
+  
+  .bg-navy-medium {
+    background-color: hsl(var(--navy-medium));
+  }
+  
+  .text-accent-teal {
+    color: hsl(var(--accent-teal));
+  }
+  
+  .border-navy-medium {
+    border-color: hsl(var(--navy-medium));
+  }
+  
+  .hover-accent-teal:hover {
+    color: hsl(var(--accent-teal));
+  }
+}
