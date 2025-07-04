@@ -65,9 +65,9 @@ const CreativeSkills = () => {
           logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" 
         },
         { 
-          name: "LeetCode", 
-          level: 75, 
-          logo: "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEzLjM3MyAyMS43M2MtLjcyLjcyLTEuODg4LjcyLTIuNjA4IDBsLTguNDk1LTguNDk1Yy0uNzItLjcyLS43Mi0xLjg4OCAwLTIuNjA4bDguNDk1LTguNDk1Yy43Mi0uNzIgMS44ODgtLjcyIDIuNjA4IDBsMS4yMzYgMS4yMzZjLjcyLjcyLjcyIDEuODg4IDAgMi42MDhsLTUuNjUxIDUuNjUxIDUuNjUxIDUuNjUxYy43Mi43MiAuNzIgMS44ODggMCAyLjYwOGwtMS4yMzYgMS4yMzZ6IiBmaWxsPSIjRkZBMTE2Ii8+CjxwYXRoIGQ9Ik0xOSAyMGMtLjU1MiAwLTEtLjQ0OC0xLTFWNWMwLS41NTIuNDQ4LTEgMS0xcyAxIC40NDggMSAxdjE0YzAgLjU1Mi0uNDQ4IDEtMSAxeiIgZmlsbD0iI0ZGQTExNiIvPgo8L3N2Zz4K" 
+        name: "GitHub", 
+        level: 75, 
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
         },
         { 
           name: "VS Code", 
